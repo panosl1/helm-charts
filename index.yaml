@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  ibm-cao-jupyter-dev:
+  - apiVersion: v1
+    appVersion: 1.6.1
+    created: 2019-11-13T08:47:32.320331011+01:00
+    description: IBM CAO Jupyter development environment
+    digest: 747d333c3fc8a5cb222340030a5dab21866ff6fed650ce2b8ac9374ac4260a8d
+    keywords:
+    - ppc64le
+    - amd64
+    - Limited
+    - ICP
+    - AI
+    kubeVersion: '>=1.11.3'
+    name: ibm-cao-jupyter-dev
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://panosl1.github.io/helm-charts/ibm-cao-jupyter-dev-1.0.54.tgz
+    version: 1.0.54
+generated: 2019-11-13T08:47:32.311579915+01:00
