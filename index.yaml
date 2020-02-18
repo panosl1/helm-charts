@@ -3,7 +3,7 @@ entries:
   ibm-cao-jupyter-dev:
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.049200015-08:00
+    created: 2020-02-18T07:12:27.20714376-08:00
     description: IBM CAO Jupyter development environment
     digest: d5bb36e203b9785b0f00d91d3f54041b9ad895a95c49bcdaa650358e090084e1
     keywords:
@@ -20,7 +20,7 @@ entries:
     version: 1.0.67
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.034789951-08:00
+    created: 2020-02-18T07:12:27.191823508-08:00
     description: IBM CAO Jupyter development environment
     digest: 0540f203f6fe4964c737af954160bb3aa4f84a4ccc8c77e79de3e92a544147a3
     keywords:
@@ -37,7 +37,7 @@ entries:
     version: 1.0.66
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.019687618-08:00
+    created: 2020-02-18T07:12:27.176718061-08:00
     description: IBM CAO Jupyter development environment
     digest: 25cd2bf67a55a55330bb6a106319c6a4cd9d7a305c788ab11a1ffa4080b6f745
     keywords:
@@ -54,7 +54,7 @@ entries:
     version: 1.0.65
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.003759945-08:00
+    created: 2020-02-18T07:12:27.161601505-08:00
     description: IBM CAO Jupyter development environment
     digest: 7a1817ea50305d0c8764d73a0fd363fbca1499164a39016f968f46e75d0491a6
     keywords:
@@ -71,7 +71,7 @@ entries:
     version: 1.0.64
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:16.988021735-08:00
+    created: 2020-02-18T07:12:27.147238605-08:00
     description: IBM CAO Jupyter development environment
     digest: 747d333c3fc8a5cb222340030a5dab21866ff6fed650ce2b8ac9374ac4260a8d
     keywords:
@@ -89,7 +89,24 @@ entries:
   ibm-gcdodl-dev:
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.151316239-08:00
+    created: 2020-02-18T07:12:27.321029722-08:00
+    description: IBM GCDO DL Jupyter development environment
+    digest: 23ae4cdce27cf431872e3e6965b60887484adf6b2ab241ff1bc0ea3143de1ed7
+    keywords:
+    - ppc64le
+    - amd64
+    - Limited
+    - ICP
+    - AI
+    kubeVersion: '>=1.11.3'
+    name: ibm-gcdodl-dev
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://panosl1.github.io/helm-charts/ibm-gcdodl-dev-1.0.20.tgz
+    version: 1.0.20
+  - apiVersion: v1
+    appVersion: 1.6.1
+    created: 2020-02-18T07:12:27.300821437-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: 387b0a556e5f33e83e5dd385fdac172a4918a4d243b6ecde862aeb451fd703ea
     keywords:
@@ -106,7 +123,7 @@ entries:
     version: 1.0.19
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.125570811-08:00
+    created: 2020-02-18T07:12:27.28508135-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: 284b76c6d21809e74bc003a13476ef3c37d643745ae3051027acf23eb363bd98
     keywords:
@@ -123,7 +140,7 @@ entries:
     version: 1.0.18
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.110382205-08:00
+    created: 2020-02-18T07:12:27.270816033-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: 6097d468e4a5be206362b9760209f1247b8823525f49e7ec478f5a15aae38775
     keywords:
@@ -140,7 +157,7 @@ entries:
     version: 1.0.17
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.094903324-08:00
+    created: 2020-02-18T07:12:27.254804038-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: 35c7010b9b744a0f5eb4dd2f22860826a8aa36ead33a72d8087a8da2f1010688
     keywords:
@@ -157,7 +174,7 @@ entries:
     version: 1.0.13
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.078598071-08:00
+    created: 2020-02-18T07:12:27.238605119-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: 44cbffc3351b755fe8535e78da7fe920989e7fe76f15193659baa5f0c9b4d387
     keywords:
@@ -174,7 +191,7 @@ entries:
     version: 1.0.12
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.063617661-08:00
+    created: 2020-02-18T07:12:27.22300755-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: 4d78b0bb0b9aa3f856f96b89b5c3ca7a524691ad316d48818d03d8949bab9104
     keywords:
@@ -191,7 +208,7 @@ entries:
     version: 1.0.11
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.230065172-08:00
+    created: 2020-02-18T07:12:27.402239094-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: 9e8dace3788d5b53574faf683add8f96f8f5f6f35a03fe63b07fcb9a87697016
     keywords:
@@ -208,7 +225,7 @@ entries:
     version: 1.0.9
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.213700772-08:00
+    created: 2020-02-18T07:12:27.385624433-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: eca0151ca2969b6bbfd8115ee397aadb20026b770ad6a1c8e9b252c076f10d89
     keywords:
@@ -225,7 +242,7 @@ entries:
     version: 1.0.8
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.197716686-08:00
+    created: 2020-02-18T07:12:27.36792739-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: d19d77c025f8bef314899c7563a52b472a6694f67df1b6f5fd816d2f954feba2
     keywords:
@@ -242,7 +259,7 @@ entries:
     version: 1.0.7
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.182418201-08:00
+    created: 2020-02-18T07:12:27.35206583-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: e30411f756228138b2627e72c9bddf6ad8abc247e80acd832c79147829bc1d94
     keywords:
@@ -259,7 +276,7 @@ entries:
     version: 1.0.6
   - apiVersion: v1
     appVersion: 1.6.1
-    created: 2020-02-18T06:54:17.166354534-08:00
+    created: 2020-02-18T07:12:27.33642056-08:00
     description: IBM GCDO DL Jupyter development environment
     digest: 37a00a0ec9d134e7fa2850b9bf588a9370e633472792285d1f0ca0e552ffb55d
     keywords:
@@ -274,4 +291,4 @@ entries:
     urls:
     - https://panosl1.github.io/helm-charts/ibm-gcdodl-dev-1.0.5.tgz
     version: 1.0.5
-generated: 2020-02-18T06:54:16.971175005-08:00
+generated: 2020-02-18T07:12:27.132198527-08:00
